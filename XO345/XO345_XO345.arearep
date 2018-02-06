@@ -1,0 +1,192 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  181 of 1367 (13.241%)
+I/O cells:      17
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB        11          100.0
+                              CCU2D         9          100.0
+                              DP8KC         1          100.0
+                                EFB         1          100.0
+                            FD1P3AX        31          100.0
+                            FD1P3BX         4          100.0
+                            FD1P3DX        73          100.0
+                            FD1P3IX         8          100.0
+                             FD1S1D         2          100.0
+                            FD1S3AX         6          100.0
+                            FD1S3BX         7          100.0
+                            FD1S3DX        38          100.0
+                            FIFO8KB         2          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                           IFS1P3BX         1          100.0
+                           IFS1P3DX        10          100.0
+                                INV         1          100.0
+                            L6MUX21         1          100.0
+                               LUT4       285          100.0
+                                 OB         3          100.0
+                           OFS1P3DX         1          100.0
+                               OSCH         1          100.0
+                              PFUMX        18          100.0
+                                PUR         1          100.0
+SUB MODULES
+                             ext_if         1
+                          fifo_ctrl         1
+                            fifo_dc         1
+                         fifo_dc_U0         1
+                   fifo_prefetch_if         1
+main_ctrl(GPI_PORT_NUM=1,REVISION_ID=1,MAX_MEM_BURST_NUM=256)         1
+                               mono         1
+                            mono_U1         1
+                             ram_dp         1
+                      spi_slave_efb         1
+spi_slave_top(GPI_PORT_NUM=1,REVISION_ID=1)         1
+                            wb_ctrl         1
+                              TOTAL       531
+----------------------------------------------------------------------
+Report for cell spi_slave_top(GPI_PORT_NUM=1,REVISION_ID=1).v1
+Instance Path : spi_slave_top_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         5           55.6
+                                EFB         1          100.0
+                            FD1P3BX         3           75.0
+                            FD1P3DX        63           86.3
+                            FD1S3BX         4           57.1
+                            FD1S3DX        32           84.2
+                           IFS1P3BX         1          100.0
+                            L6MUX21         1          100.0
+                               LUT4       216           75.8
+                              PFUMX        18          100.0
+SUB MODULES
+                             ext_if         1
+main_ctrl(GPI_PORT_NUM=1,REVISION_ID=1,MAX_MEM_BURST_NUM=256)         1
+                      spi_slave_efb         1
+                            wb_ctrl         1
+                              TOTAL       348
+----------------------------------------------------------------------
+Report for cell wb_ctrl.v1
+Instance Path : spi_slave_top_inst.wb_ctrl_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        11           15.1
+                            FD1S3DX         4           10.5
+                               LUT4         8            2.8
+                              TOTAL        23
+----------------------------------------------------------------------
+Report for cell spi_slave_efb.v1
+Instance Path : spi_slave_top_inst.sspi_efb_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                EFB         1          100.0
+                               LUT4         5            1.8
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell main_ctrl(GPI_PORT_NUM=1,REVISION_ID=1,MAX_MEM_BURST_NUM=256).v1
+Instance Path : spi_slave_top_inst.main_ctrl_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         5           55.6
+                            FD1P3BX         3           75.0
+                            FD1P3DX        42           57.5
+                            FD1S3BX         4           57.1
+                            FD1S3DX        19           50.0
+                           IFS1P3BX         1          100.0
+                            L6MUX21         1          100.0
+                               LUT4       191           67.0
+                              PFUMX        18          100.0
+                              TOTAL       284
+----------------------------------------------------------------------
+Report for cell ext_if.v1
+Instance Path : spi_slave_top_inst.ext_if_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX        10           13.7
+                            FD1S3DX         9           23.7
+                               LUT4        12            4.2
+                              TOTAL        31
+----------------------------------------------------------------------
+Report for cell fifo_ctrl.v1
+Instance Path : fifo_ctrl_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4           44.4
+                              DP8KC         1          100.0
+                            FD1P3AX        31          100.0
+                            FD1P3BX         1           25.0
+                            FD1P3DX        10           13.7
+                            FD1P3IX         8          100.0
+                             FD1S1D         2          100.0
+                            FD1S3AX         6          100.0
+                            FD1S3BX         3           42.9
+                            FD1S3DX         6           15.8
+                            FIFO8KB         2          100.0
+                           IFS1P3DX        10          100.0
+                               LUT4        60           21.1
+                           OFS1P3DX         1          100.0
+SUB MODULES
+                            fifo_dc         1
+                         fifo_dc_U0         1
+                   fifo_prefetch_if         1
+                               mono         1
+                            mono_U1         1
+                             ram_dp         1
+                              TOTAL       151
+----------------------------------------------------------------------
+Report for cell mono.v1
+Instance Path : fifo_ctrl_inst.WR_busy
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4           44.4
+                            FD1P3DX         5            6.8
+                             FD1S1D         2          100.0
+                            FD1S3BX         2           28.6
+                            FD1S3DX         2            5.3
+                               LUT4        12            4.2
+                              TOTAL        27
+----------------------------------------------------------------------
+Report for cell fifo_prefetch_if.v1
+Instance Path : fifo_ctrl_inst.TXIF
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         1          100.0
+                            FD1P3AX        23           74.2
+                            FD1P3BX         1           25.0
+                            FD1P3DX         1            1.4
+                            FD1P3IX         8          100.0
+                            FD1S3BX         1           14.3
+                            FD1S3DX         4           10.5
+                               LUT4        38           13.3
+SUB MODULES
+                             ram_dp         1
+                              TOTAL        78
+----------------------------------------------------------------------
+Report for cell ram_dp.v1
+Instance Path : fifo_ctrl_inst.TXIF.MEM
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell fifo_dc.v1
+Instance Path : fifo_ctrl_inst.TXFF
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell fifo_dc_U0.v1
+Instance Path : fifo_ctrl_inst.RXFF
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           50.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell mono_U1.v1
+Instance Path : fifo_ctrl_inst.RD_busy
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3DX         4            5.5
+                            FD1S3AX         1           16.7
+                               LUT4         7            2.5
+                              TOTAL        12

@@ -1,0 +1,554 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.4.1.213
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2014 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Jan 29 16:02:37 2016
+
+
+Command Line:  synthesis -f XO345_XO345_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is WLCSP36.
+The -d option is LCMXO3L-1300E.
+Using package WLCSP36.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-1300E
+
+### Package : WLCSP36
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = top.
+Target frequency = 33.250000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = TRUE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p E:/Projekte/hardware/Lattice/FFSS3 (searchpath added)
+-p E:/lscc/diamond/3.4_x64/ispfpga/xo3c00a/data (searchpath added)
+-p E:/Projekte/hardware/Lattice/FFSS3/XO345 (searchpath added)
+-p E:/Projekte/hardware/Lattice/FFSS3 (searchpath added)
+Mixed language design
+Verilog design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/ext_if.v
+Verilog design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/spi_slave_ctrl.v
+Verilog design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/spi_slave_efb.v
+Verilog design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/spi_slave_top.v
+Verilog design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/wb_ctrl.v
+VHDL library = work
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_ctrl.vhd
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_dc.vhd
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main_1300E.vhd
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/monoflop.vhd
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/ram_dp.vhd
+VHDL library = work
+VHDL design file = E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_prefetch_if2.vhd
+NGD file = XO345_XO345.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v. VERI-1482
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(126): block identifier is required on this block. VERI-1212
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(186): block identifier is required on this block. VERI-1212
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(90): parameter declaration becomes local in ext_if with formal parameter declaration list. VERI-1199
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(91): parameter declaration becomes local in ext_if with formal parameter declaration list. VERI-1199
+Analyzing Verilog file e:/projekte/hardware/lattice/ffss3/xo345/source/spi_slave_ctrl.v. VERI-1482
+Analyzing Verilog file e:/projekte/hardware/lattice/ffss3/xo345/source/spi_slave_efb.v. VERI-1482
+Analyzing Verilog file e:/projekte/hardware/lattice/ffss3/xo345/source/spi_slave_top.v. VERI-1482
+Analyzing Verilog file e:/projekte/hardware/lattice/ffss3/xo345/source/wb_ctrl.v. VERI-1482
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): analyzing package standard. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): analyzing package textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): analyzing package body textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+INFO - synthesis: ./.__tmp_vxr_0_(56): analyzing package math_real. VHDL-1014
+INFO - synthesis: ./.__tmp_vxr_0_(685): analyzing package body math_real. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): analyzing package components. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): analyzing package orcacomp. VHDL-1014
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): analyzing package attributes. VHDL-1014
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(8): analyzing entity mono. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(20): analyzing architecture simplemonoflop_inv. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(60): analyzing architecture simplemonoflop. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(23): analyzing entity fifo_prefetch_if. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(43): analyzing architecture fifo_prefetch_if_arch_dummy. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(89): analyzing architecture fifo_prefetch_mem_if. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd(12): analyzing entity fifo_ctrl. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd(41): analyzing architecture fifobackendarch. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd(14): analyzing entity fifo_dc. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd(30): analyzing architecture structure. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(12): analyzing entity top. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(33): analyzing architecture main. VHDL-1010
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd(14): analyzing entity ram_dp. VHDL-1012
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd(28): analyzing architecture structure. VHDL-1010
+INFO - synthesis: The default VHDL library search path is now "E:/Projekte/hardware/Lattice/FFSS3/XO345". VHDL-1504
+Mixed language design
+Top module language type = VHDL.
+unit top is not yet analyzed. VHDL-1485
+e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(12): executing top(main)
+
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(191): going to verilog side to elaborate module GSR. VHDL-1399
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(191): back to VHDL to continue elaboration. VHDL-1400
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(203): going to verilog side to elaborate module PUR. VHDL-1399
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(203): back to VHDL to continue elaboration. VHDL-1400
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(57): formal port \PUR\ of mode in cannot be associated with actual port pur of mode out. VHDL-1336
+INFO - synthesis: E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1034): \PUR\ is declared here. VHDL-1259
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(216): going to verilog side to elaborate module OSCH. VHDL-1399
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(216): back to VHDL to continue elaboration. VHDL-1400
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(295): going to verilog side to elaborate module spi_slave_top. VHDL-1399
+INFO - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(295): back to VHDL to continue elaboration. VHDL-1400
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(167): net POWERUP_RST does not have a driver. VDB-1002
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(29): replacing existing netlist top(main). VHDL-1205
+Top module name (VHDL, mixed language): top
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c1300.nph' in environment: E:/lscc/diamond/3.4_x64/ispfpga.
+Package Status:                     Final          Version 1.15.
+Top-level module name = top.
+WARNING - synthesis: net n132 does not have a driver. VDB-1002
+WARNING - synthesis: net n132 does not have a driver. VDB-1002
+WARNING - synthesis: net n132 does not have a driver. VDB-1002
+######## Missing driver on net n132. Patching with GND.
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(124): Register \spi_slave_top_inst/ext_if_inst/irq_status[1]_87 clock is stuck at Zero. VDB-5035
+
+Extracted state machine for register: \fifo_ctrl_inst/TXIF/STATE
+
+State machine has 4 states with original encoding
+
+original encoding -> new encoding (OneHot Encoding)
+
+ 00 -> 0001
+
+ 01 -> 0010
+
+ 10 -> 0100
+
+ 11 -> 1000
+
+ Number of Reachable States for this State Machine are 4 
+
+
+
+Extracted state machine for register: \spi_slave_top_inst/main_ctrl_inst/main_sm
+
+State machine has 16 states with original encoding
+
+original encoding -> new encoding (OneHot Encoding)
+
+ 0000 -> 0000000000000001
+
+ 0001 -> 0000000000000010
+
+ 0010 -> 0000000000000100
+
+ 0011 -> 0000000000001000
+
+ 0100 -> 0000000000010000
+
+ 0101 -> 0000000000100000
+
+ 0110 -> 0000000001000000
+
+ 0111 -> 0000000010000000
+
+ 1000 -> 0000000100000000
+
+ 1001 -> 0000001000000000
+
+ 1010 -> 0000010000000000
+
+ 1011 -> 0000100000000000
+
+ 1100 -> 0001000000000000
+
+ 1101 -> 0010000000000000
+
+ 1110 -> 0100000000000000
+
+ 1111 -> 1000000000000000
+
+ Number of Reachable States for this State Machine are 13 
+
+
+
+
+
+WARNING - synthesis: Bit 0 of Register \spi_slave_top_inst/main_ctrl_inst/main_sm_FSM is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \spi_slave_top_inst/main_ctrl_inst/main_sm_FSM is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \spi_slave_top_inst/main_ctrl_inst/main_sm_FSM is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at One
+WARNING - synthesis: Bit 2 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at One
+WARNING - synthesis: Bit 4 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at One
+WARNING - synthesis: Bit 5 of Register \spi_slave_top_inst/main_ctrl_inst/address is stuck at Zero
+WARNING - synthesis: Skipping pad insertion on SPI_CLK due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on SPI_SDI due to black_box_pad_pin attribute.
+WARNING - synthesis: Skipping pad insertion on SPI_SDOZ due to black_box_pad_pin attribute.
+WARNING - synthesis: e:/projekte/hardware/lattice/ffss3/xo345/source/wb_ctrl.v(125): Register \spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i7 is stuck at Zero. VDB-5013
+Duplicate register/latch removal. \spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i6 is a one-to-one match with \spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i3.
+Duplicate register/latch removal. \spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i4 is a one-to-one match with \spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i6.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i4 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/tmp_PARALLEL_WR_P_95 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/tmp_PARALLEL_RDN_P_89 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i1 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i0 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i6 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \spi_slave_top_inst/main_ctrl_inst/spi_csn_buf0_p_246 of type IFS1P3BX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i5 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i7 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i3 of type IFS1P3DX will not be replicated.
+INFO - synthesis: Register \fifo_ctrl_inst/TX_Latch_i2 of type IFS1P3DX will not be replicated.
+Applying 33.250000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in top_drc.log.
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/lscc/diamond/3.4_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file XO345_XO345.ngd.
+
+################### Begin Area Report (top)######################
+Number of register bits => 181 of 1367 (13 % )
+BB => 11
+CCU2D => 9
+DP8KC => 1
+EFB => 1
+FD1P3AX => 31
+FD1P3BX => 4
+FD1P3DX => 73
+FD1P3IX => 8
+FD1S1D => 2
+FD1S3AX => 6
+FD1S3BX => 7
+FD1S3DX => 38
+FIFO8KB => 2
+GSR => 1
+IB => 3
+IFS1P3BX => 1
+IFS1P3DX => 10
+INV => 1
+L6MUX21 => 1
+LUT4 => 285
+OB => 3
+OFS1P3DX => 1
+OSCH => 1
+PFUMX => 18
+PUR => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 4
+  Net : MAIN_CLK, loads : 162
+  Net : RX_RdClock, loads : 30
+  Net : GND_net, loads : 4
+  Net : n77, loads : 2
+Clock Enable Nets
+Number of Clock Enables: 29
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : wb_ack_o, loads : 53
+  Net : spi_cmd_1, loads : 42
+  Net : spi_cmd_0, loads : 36
+  Net : wb_dat_o_3, loads : 29
+  Net : spi_cmd_2, loads : 29
+  Net : spi_cmd_3, loads : 28
+  Net : wb_dat_o_4, loads : 21
+  Net : n8299, loads : 19
+  Net : wb_dat_o_0, loads : 19
+  Net : wb_dat_o_1, loads : 18
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 30.075188 -name    |             |             |
+clk0 [get_nets MAIN_CLK]                |            -|            -|     0  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 99.121  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 6.318  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

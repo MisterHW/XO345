@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>52101259</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>fifo_ctrl_inst/WR_busy/i3191</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101259</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>fifo_ctrl_inst/WR_busy/i3187</Dynamic>
+        </Message>
+        <Message>
+            <ID>52101186</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MachXO3L</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35901212</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(126): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>35901212</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(186): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v</Navigation>
+            <Navigation>186</Navigation>
+        </Message>
+        <Message>
+            <ID>35901199</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(90): </Dynamic>
+            <Dynamic>ext_if</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>35901199</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(91): </Dynamic>
+            <Dynamic>ext_if</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v</Navigation>
+            <Navigation>91</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd(9): </Dynamic>
+            <Dynamic>standard</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/standard.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(15): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd(178): </Dynamic>
+            <Dynamic>std_logic_1164</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_1164.vhd</Navigation>
+            <Navigation>178</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(18): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd(753): </Dynamic>
+            <Dynamic>qsim_logic</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mgc_qsim.vhd</Navigation>
+            <Navigation>753</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(54): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd(834): </Dynamic>
+            <Dynamic>numeric_bit</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_bit.vhd</Navigation>
+            <Navigation>834</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(57): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd(874): </Dynamic>
+            <Dynamic>numeric_std</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/numeric_std.vhd</Navigation>
+            <Navigation>874</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(13): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd(114): </Dynamic>
+            <Dynamic>textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/textio.vhd</Navigation>
+            <Navigation>114</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(26): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd(72): </Dynamic>
+            <Dynamic>std_logic_textio</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/std_logic_textio.vhd</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(30): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd(182): </Dynamic>
+            <Dynamic>std_logic_misc</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_misc.vhd</Navigation>
+            <Navigation>182</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(56): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>./.__tmp_vxr_0_(685): </Dynamic>
+            <Dynamic>math_real</Dynamic>
+            <Navigation>./.__tmp_vxr_0_</Navigation>
+            <Navigation>685</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(9): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd(88): </Dynamic>
+            <Dynamic>vl_types</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/mixed_lang_vltype.vhd</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(25): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd(206): </Dynamic>
+            <Dynamic>std_logic_arith</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_arit.vhd</Navigation>
+            <Navigation>206</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd(39): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_attr.vhd</Navigation>
+            <Navigation>39</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(35): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd(96): </Dynamic>
+            <Dynamic>std_logic_signed</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_sign.vhd</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(35): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921013</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd(94): </Dynamic>
+            <Dynamic>std_logic_unsigned</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/syn_unsi.vhd</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd(38): </Dynamic>
+            <Dynamic>components</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/ecp2.vhd</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd(35): </Dynamic>
+            <Dynamic>orcacomp</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/orca4.vhd</Navigation>
+            <Navigation>35</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd(50): </Dynamic>
+            <Dynamic>attributes</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/vhdl_packages/synattr.vhd</Navigation>
+            <Navigation>50</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(8): </Dynamic>
+            <Dynamic>mono</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(20): </Dynamic>
+            <Dynamic>simplemonoflop_inv</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd(60): </Dynamic>
+            <Dynamic>simplemonoflop</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/monoflop.vhd</Navigation>
+            <Navigation>60</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(23): </Dynamic>
+            <Dynamic>fifo_prefetch_if</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd</Navigation>
+            <Navigation>23</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(43): </Dynamic>
+            <Dynamic>fifo_prefetch_if_arch_dummy</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd(89): </Dynamic>
+            <Dynamic>fifo_prefetch_mem_if</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_prefetch_if2.vhd</Navigation>
+            <Navigation>89</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd(12): </Dynamic>
+            <Dynamic>fifo_ctrl</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd(41): </Dynamic>
+            <Dynamic>fifobackendarch</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_ctrl.vhd</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd(14): </Dynamic>
+            <Dynamic>fifo_dc</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd(30): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/fifo_dc.vhd</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(12): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(33): </Dynamic>
+            <Dynamic>main</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd(14): </Dynamic>
+            <Dynamic>ram_dp</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd(28): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ram_dp.vhd</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Status</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>E:/Projekte/hardware/Lattice/FFSS3/XO345</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921399</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(191): </Dynamic>
+            <Dynamic>GSR</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>191</Navigation>
+        </Message>
+        <Message>
+            <ID>35921400</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(191): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>191</Navigation>
+        </Message>
+        <Message>
+            <ID>35921399</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(203): </Dynamic>
+            <Dynamic>PUR</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>203</Navigation>
+        </Message>
+        <Message>
+            <ID>35921400</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(203): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>203</Navigation>
+        </Message>
+        <Message>
+            <ID>35921336</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(57): </Dynamic>
+            <Dynamic>\PUR\</Dynamic>
+            <Dynamic>in</Dynamic>
+            <Dynamic>pur</Dynamic>
+            <Dynamic>out</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35921259</ID>
+            <Severity>Info</Severity>
+            <Dynamic>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1034): </Dynamic>
+            <Dynamic>\PUR\</Dynamic>
+            <Navigation>E:/lscc/diamond/3.4_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v</Navigation>
+            <Navigation>1034</Navigation>
+        </Message>
+        <Message>
+            <ID>35921399</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(216): </Dynamic>
+            <Dynamic>OSCH</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>216</Navigation>
+        </Message>
+        <Message>
+            <ID>35921400</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(216): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>216</Navigation>
+        </Message>
+        <Message>
+            <ID>35921399</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(295): </Dynamic>
+            <Dynamic>spi_slave_top</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>295</Navigation>
+        </Message>
+        <Message>
+            <ID>35921400</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(295): </Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>295</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(167): </Dynamic>
+            <Dynamic>POWERUP_RST</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>167</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Status</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd(29): </Dynamic>
+            <Dynamic>top</Dynamic>
+            <Dynamic>main</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/main_1300e.vhd</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Status</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>n132</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Status</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>n132</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Status</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>n132</Dynamic>
+        </Message>
+        <Message>
+            <ID>35935035</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v(124): </Dynamic>
+            <Dynamic>\spi_slave_top_inst/ext_if_inst/irq_status[1]_87</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/ext_if.v</Navigation>
+            <Navigation>124</Navigation>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/main_sm_FSM</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/main_sm_FSM</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/main_sm_FSM</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001748</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001748</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001748</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>4</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>5</Dynamic>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/address</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SPI_CLK</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SPI_SDI</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001263</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SPI_SDOZ</Dynamic>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/projekte/hardware/lattice/ffss3/xo345/source/wb_ctrl.v(125): </Dynamic>
+            <Dynamic>\spi_slave_top_inst/wb_ctrl_inst/wb_adr_i_i7</Dynamic>
+            <Navigation>e:/projekte/hardware/lattice/ffss3/xo345/source/wb_ctrl.v</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i4</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/tmp_PARALLEL_WR_P_95</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/tmp_PARALLEL_RDN_P_89</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i1</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i0</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i6</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\spi_slave_top_inst/main_ctrl_inst/spi_csn_buf0_p_246</Dynamic>
+            <Dynamic>IFS1P3BX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i5</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i7</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i3</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001699</ID>
+            <Severity>Info</Severity>
+            <Dynamic>\fifo_ctrl_inst/TX_Latch_i2</Dynamic>
+            <Dynamic>IFS1P3DX</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061044</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MachXO3L</Dynamic>
+        </Message>
+        <Message>
+            <ID>61061045</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

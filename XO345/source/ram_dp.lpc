@@ -1,0 +1,52 @@
+[Device]
+Family=machxo3l
+PartType=LCMXO3L-6900C
+PartName=LCMXO3L-6900C-5BG256C
+SpeedGrade=5
+Package=CABGA256
+OperatingCondition=COM
+Status=S
+
+[IP]
+VendorName=Lattice Semiconductor Corporation
+CoreType=LPM
+CoreStatus=Demo
+CoreName=RAM_DP
+CoreRevision=6.4
+ModuleName=ram_dp
+SourceFormat=VHDL
+ParameterFileVersion=1.0
+Date=08/16/2015
+Time=21:01:38
+
+[Parameters]
+Verilog=0
+VHDL=1
+EDIF=1
+Destination=Synplicity
+Expression=BusA(0 to 7)
+Order=Big Endian [MSB:LSB]
+IO=0
+RAddress=64
+RData=8
+WAddress=64
+WData=8
+enByte=0
+ByteSize=9
+OutputEn=0
+ClockEn=0
+Optimization=Speed
+Reset=Async
+Reset1=Sync
+Init=1
+MemFile=
+MemFormat=bin
+EnECC=0
+Pipeline=0
+init_data=0
+
+[FilesGenerated]
+=mem
+
+[Command]
+cmd_line= -w -n ram_dp -lang vhdl -synth lse -bus_exp 7 -bb -arch xo3c00a -type ramdps -device LCMXO3L-6900C -raddr_width 6 -rwidth 8 -waddr_width 6 -wwidth 8 -rnum_words 64 -wnum_words 64 -cascade -1 -mem_init1

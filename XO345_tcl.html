@@ -1,0 +1,270 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn151023231326"></A><B><U><big>pn151023231326</big></U></B>
+#Start recording tcl command: 10/23/2015 19:19:35
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+prj_src add -exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345L1300E.lpf"
+prj_src add "E:/Projekte/hardware/Lattice/FFSS3/main_1300E.vhd"
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main.vhd"
+prj_run Synthesis -impl XO345
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345L1300E.lpf"
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_dev set -part LCMXO3L-1300E-5UWG36CTR
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run PAR -impl XO345
+prj_run PAR -impl XO345
+prj_run PAR -impl XO345
+prj_run PAR -impl XO345
+prj_run PAR -impl XO345
+prj_run Synthesis -impl XO345 -task Lattice_Synthesis
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345 -forceOne
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Export -impl XO345
+#Stop recording: 10/23/2015 23:13:26
+
+
+
+<A name="pn151024170042"></A><B><U><big>pn151024170042</big></U></B>
+#Start recording tcl command: 10/24/2015 11:02:34
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+#Stop recording: 10/24/2015 17:00:42
+
+
+
+<A name="pn151025112713"></A><B><U><big>pn151025112713</big></U></B>
+#Start recording tcl command: 10/25/2015 10:13:10
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+#Stop recording: 10/25/2015 11:27:13
+
+
+
+<A name="pn151026200113"></A><B><U><big>pn151026200113</big></U></B>
+#Start recording tcl command: 10/26/2015 17:55:11
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+pgr_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_program run
+pgr_program run
+prj_project close
+#Stop recording: 10/26/2015 20:01:13
+
+
+
+<A name="pn151026202210"></A><B><U><big>pn151026202210</big></U></B>
+#Start recording tcl command: 10/26/2015 20:02:33
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+pgr_project close
+prj_run Export -impl XO345 -forceAll
+pgr_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_program run
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+prj_project close
+#Stop recording: 10/26/2015 20:22:10
+
+
+
+<A name="pn160127164356"></A><B><U><big>pn160127164356</big></U></B>
+#Start recording tcl command: 1/27/2016 11:01:58
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345-6900C.xcf"
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345.lpf"
+prj_run Export -impl XO345
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main_1300E.vhd"
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main.vhd"
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_dev set -part LCMXO3L-6900C-5BG256C
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Export -impl XO345
+pgr_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345-6900C.xcf"
+pgr_program run
+prj_run Synthesis -impl XO345 -forceOne
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345L1300E.lpf"
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345-6900C.xcf"
+prj_dev set -part LCMXO3L-1300E-5UWG36CTR
+pgr_project close
+prj_run Synthesis -impl XO345
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main.vhd"
+prj_src enable "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/main_1300E.vhd"
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345 -forceOne
+prj_run Synthesis -impl XO345
+prj_run Synthesis -impl XO345
+#Stop recording: 1/27/2016 16:43:56
+
+
+
+<A name="pn160127170134"></A><B><U><big>pn160127170134</big></U></B>
+#Start recording tcl command: 1/27/2016 16:44:35
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+prj_run Synthesis -impl XO345
+prj_src add "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_dc1300E.vhd"
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_dc.vhd"
+prj_src add "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/spi_slave_efb1300E.v"
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/spi_slave_efb.v"
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Export -impl XO345
+pgr_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program run
+pgr_project save "E:/Projekte/hardware/Lattice/FFSS3/XO345/XO345.xcf"
+prj_project save
+prj_project close
+#Stop recording: 1/27/2016 17:01:34
+
+
+
+<A name="pn160129161442"></A><B><U><big>pn160129161442</big></U></B>
+#Start recording tcl command: 1/29/2016 14:34:14
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Synthesis -impl XO345
+prj_run Map -impl XO345
+prj_run PAR -impl XO345
+prj_run Export -impl XO345
+prj_run PAR -impl XO345
+prj_run Export -impl XO345
+#Stop recording: 1/29/2016 16:14:42
+
+
+
+<A name="pn160203222412"></A><B><U><big>pn160203222412</big></U></B>
+#Start recording tcl command: 2/3/2016 20:51:40
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+#Stop recording: 2/3/2016 22:24:12
+
+
+
+<A name="pn160205111717"></A><B><U><big>pn160205111717</big></U></B>
+#Start recording tcl command: 2/4/2016 13:36:53
+#Project Location: E:/Projekte/hardware/Lattice/FFSS3; Project name: XO345
+prj_project open "E:/Projekte/hardware/Lattice/FFSS3/XO345.ldf"
+prj_src add "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_dc.ipx"
+prj_src exclude "E:/Projekte/hardware/Lattice/FFSS3/XO345/source/fifo_dc.ipx"
+#Stop recording: 2/5/2016 11:17:17
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>
