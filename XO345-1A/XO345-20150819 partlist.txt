@@ -1,0 +1,14 @@
+Partlist
+
+Exported from XO345-1A.brd at 19.08.2015 10:17
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: actual
+
+Part     Value          Package  Library      Position (mm)         Orientation
+
+C1       220nF/6.3V     C0402    ESP8266      (7.19 2.4)            R270
+C2       220nF/10V      C0603    ESP8266      (1.95 2.35)           R270
+IC       XO3-LCSP36     WLCSP36  custom-parts (5.19 5)              R0
+R1       22k 1%         R0402    ESP8266      (2.04 7.05)           R0

@@ -1,0 +1,7 @@
+Stückliste exportiert aus C:/Projekte/hardware/Circuit Designs/__active__/Detektor/XO345/XO345-1A.sch am 19.08.2015 10:18
+
+Qty Value      Device     Package Parts Description     MF                    MFG_PARTNO                MOUSER               SIZE
+1   220nF/10V  CAP_0603   C0603   C2    Capacitor                                                                            0603
+1   220nF/6.3V CAP_0402   C0402   C1    Capacitor       TDK                   C1005X5R1A224M050BC       810-C1005X5R1A224M   0402
+1   22k 1%     RES_0402   R0402   R1    Resistor        Vishay                CRCW04022K70FKED          71-CRCW0402-2.7K-E3  0402
+1   XO3-LCSP36 XO3-LCSP36 WLCSP36 IC    MachXO3-WLCSP36 Lattice Semiconductor LCMXO3L-1300E-5UWG36CTR50 842-XO3L13E5U36CTR50     
